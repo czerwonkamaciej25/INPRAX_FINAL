@@ -1,3 +1,6 @@
+/* * {
+  border: red solid 1px;
+} */
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
@@ -7,12 +10,7 @@ body {
   align-items: center;
 }
 
-main {
-  width: 1088px;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-}
+
 .hero {
   position: relative;
   top: 0;
@@ -97,18 +95,28 @@ hr {
   opacity: 1;
   z-index: 2;
 }
-.description {
-  height: 335px;
-  background-color: #ffffff;
+.main {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 1000px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
   background-position: center;
-  background-size: contain;
-  /* width: 100%; */
-  align-items: start;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
+  align-items: center;
+}
+.description {
+  width: 1088px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
   padding: 0;
-  height: 335px;
+  align-self: center;
+  margin-top: 50px;
 }
 .description h1 {
   text-align: left;
@@ -128,6 +136,63 @@ hr {
   color: #001125;
   opacity: 1;
 }
+.video {
+  margin-top: 100px;
+}
+
+/* Lista cech */
+/* 
+/.app-features {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 1000px;
+  width: 100%;
+  background-color: #f8f8f8;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.features-list {
+  width: 1088px;
+  padding: 0;
+}
+.list-group {
+  width: 1088px;
+  display: grid;
+  grid-template-columns: 1fr;
+  list-style: none;
+  grid-template: none;
+  padding: 0;
+}
+.list h1 {
+  margin-top: 55px;
+  text-align: center;
+  font: normal normal 600 35px/60px Open Sans;
+  letter-spacing: 0px;
+  color: #1cc6a0;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #212529;
+  text-decoration: none;
+  background-color: inherit;
+  border: none;
+}
+.image-list {
+  width: 54.68px;
+  height: 61.12px;
+  object-fit: contain;
+  margin-top: 23px;
+} 
+
 @media screen and (max-width: 1480px) {
   .container,
   main {
@@ -331,4 +396,4 @@ hr {
     width: 88px;
     margin: 0;
   }
-}
+} */
