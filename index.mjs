@@ -1,7 +1,8 @@
 import Swiper from 'https://unpkg.com/swiper/swiper-bundle.esm.browser.min.js';
 
 var swiper = new Swiper(".mySwiper", {
-    spaceBetween: 0,
+    slidesPerView: 3,
+    spaceBetween: -40,
     effect: "coverflow",
     a11y: true,
   // autoplay: {
@@ -10,7 +11,7 @@ var swiper = new Swiper(".mySwiper", {
   loop: true,
     grabCursor: true,
     centeredSlides: true,
-    slidesPerView: 3,
+    
     coverflowEffect: {
       rotate: 0,
       stretch: 800,
