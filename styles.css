@@ -334,7 +334,7 @@ hr {
   flex-direction: column;
   position: absolute;
   padding: 0;
-  margin-top: 170px;
+  margin-top: 120px;
 }
 
 .adslogan h3 {
@@ -402,7 +402,6 @@ hr {
   flex-wrap: wrap;
   gap: 220px;
   align-items: center;
-  background: #e4e4e4 0% 0% no-repeat padding-box;
   mix-blend-mode: luminosity;
   opacity: 1;
   margin-top: 30px;
@@ -456,7 +455,20 @@ hr {
   margin-top: 200px;
   align-items: center;
 }
-
+.charts {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 360px;
+  width: 100%;
+  background-color: #1277AA;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 @media screen and (max-width: 1480px) {
   .container,
   main {
