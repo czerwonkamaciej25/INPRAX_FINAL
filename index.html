@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,7 +17,7 @@
     href="https://unpkg.com/swiper/swiper-bundle.min.css"
   />
     <link rel="stylesheet" href="styles.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+   
     <title>INPRAX</title>
   </head>
   <body>
@@ -200,11 +201,31 @@
     </div>
   </section>
   <section class="charts">
-    <div>
-      <canvas id="myChart" style="width:400%; max-width:700px"></canvas>
+    <div class="charts-content">
+      <div class="charts-content-position">
+      <canvas id="myChart" style="width: 300px; max-width: 300px; display: flex; box-sizing: border-box; height: 10px;"></canvas>
+      <!-- <canvas id="myChart2" style="width:140%; max-width:700px"></canvas>
+      <canvas id="myChart3" style="width:140%; max-width:700px"></canvas> -->
+    </div>
     </div>
   </section>
-  <script src="./index.mjs" type="module"></script>
+  <!-- <section class="input-field">
+    <div class="producers-conten">
+      <div>
+        <h4>Zostańmy w kontakcie</h4>
+        <hr />
+      </div>
+      <div class="producers-content-img">
+      
+      </div>
+    </div>
+  </section> -->
+  <script 
+    src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js" 
+    integrity="sha512-sW/w8s4RWTdFFSduOTGtk4isV1+190E/GghVffMA9XczdJ2MDzSzLEubKAs5h0wzgSJOQTRYyaz73L3d6RtJSg==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer"></script>
+  <script src="./index.js" type="module"></script>
   <script src="./chart.js" type="module"></script>
   </body>
 </html>

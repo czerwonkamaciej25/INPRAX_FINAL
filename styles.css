@@ -469,6 +469,47 @@ hr {
   flex-direction: column;
   align-items: center;
 }
+.charts-content{
+  width: 1088px;
+
+  display: flex;
+  flex-direction: row;
+
+  padding: 0;
+  margin-top: 10px;
+}
+
+.charts-content-position{
+  width: 300px;
+ 
+  display: flex;
+  flex-direction: row;
+
+  padding: 0;
+  margin-top: 10px;
+}
+
+
+
+
+
+/* 
+.input-field {
+  position: relative;
+ 
+  left: 0;
+  height: 575px;
+  width: 100%;
+  background-image: url(/images/Group\ 32.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+
 @media screen and (max-width: 1480px) {
   .container,
   main {
