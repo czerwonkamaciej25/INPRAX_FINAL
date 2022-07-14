@@ -18,14 +18,13 @@ const stackedText = {
       chartArea: { top, bottom, left, right, width, height },
     } = chart;
 
-    console.log(data.datasets[0].data[0])
-    
+    console.log(data.datasets[0].data[0]);
 
     ctx.save();
-    ctx.font = 'bolder 40px Arial'
-    ctx.fillStyle = 'rgb(28,198,160)'
-    ctx.textAlign = 'center';
-    ctx.fillText('#: '+data.datasets[0].data[0], width / 2, height / 2 +top)
+    ctx.font = "bolder 40px Arial";
+    ctx.fillStyle = "rgb(28,198,160)";
+    ctx.textAlign = "center";
+    ctx.fillText("#: " + data.datasets[0].data[0], width / 2, height / 2 + top);
   },
 };
 let delayed;
@@ -42,20 +41,20 @@ const config = {
     },
     delay: (context) => {
       let delay = 0;
-      if (context.type === 'data' && context.mode === 'default' && !delayed) {
+      if (context.type === "data" && context.mode === "default" && !delayed) {
         delay = context.dataIndex * 136600 + context.datasetIndex * 100;
       }
       return delay;
     },
   },
   scales: {
-      x: {
-        stacked: true,
-      },
-      y: {
-        stacked: true
-      }
-    }
+    x: {
+      stacked: true,
+    },
+    y: {
+      stacked: true,
+    },
+  },
 };
 
 const myChart = new Chart(document.getElementById("myChart"), config);
