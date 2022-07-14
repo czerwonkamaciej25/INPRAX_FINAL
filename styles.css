@@ -487,13 +487,10 @@ hr {
   margin-top: 10px;
 }
 
-#myChart {
-  margin: ;
-}
 .input-field {
   position: relative;
   left: 0;
-  height: 575px;
+  height: 600px;
   width: 100%;
   background-image: url(/images/Group\ 32.png);
   background-position: center;
@@ -550,11 +547,11 @@ textarea.form-control {
 }
 .four {
   grid-column: 2/4;
-  grid-row: 1 / 5;
+  grid-row: 1 / 4;
 }
-.five{
+.five {
   grid-column: 1;
-  grid-row: 4 ;
+  grid-row: 4;
 }
 .form-contact h1 {
   text-align: left;
@@ -563,23 +560,35 @@ textarea.form-control {
   color: #ffffff;
   opacity: 1;
 }
-.six{
+.six {
   grid-column: 3;
   grid-row: 4;
   text-align: right;
 }
 .btn {
   width: 145px;
-height: 56px;
+  height: 56px;
 }
-.btn-primary{
-  background: #1CC6A0 0% 0% no-repeat padding-box;
+.btn-primary {
+  background: #1cc6a0 0% 0% no-repeat padding-box;
   opacity: 1;
-  border-color: #1CC6A0;
+  border-color: #1cc6a0;
+  font: normal normal normal 25px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
 }
 .btn:hover {
-  background-color:#77c2b1;
+  background-color: #77c2b1;
   border-color: #77c2b1;
+}
+
+.input-field h1 {
+  text-align: center;
+  font: normal normal normal 20px/60px Open Sans;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 0.4;
 }
 @media screen and (max-width: 1480px) {
   .container,

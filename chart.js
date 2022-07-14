@@ -5,7 +5,7 @@ const data = {
       data: [1200, 22],
       backgroundColor: ["rgb(28,198,160)"],
       borderColor: ["rgb(28,198,160)"],
-      borderWidth: 20,
+      borderWidth: 13,
       weight: 0,
     },
   ],
@@ -33,28 +33,14 @@ const config = {
   data,
   options: {
     responsive: true,
+    animation: {
+      animateRotate: true,
+      animateScale: true,
+      easing: 'linear',
+    },
   },
   plugins: [stackedText],
-  animation: {
-    onComplete: () => {
-      delayed = true;
-    },
-    delay: (context) => {
-      let delay = 0;
-      if (context.type === "data" && context.mode === "default" && !delayed) {
-        delay = context.dataIndex * 136600 + context.datasetIndex * 100;
-      }
-      return delay;
-    },
-  },
-  scales: {
-    x: {
-      stacked: true,
-    },
-    y: {
-      stacked: true,
-    },
-  },
+  
 };
 
 const myChart = new Chart(document.getElementById("myChart"), config);
