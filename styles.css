@@ -371,6 +371,7 @@ hr {
   flex-direction: column;
   align-items: center;
 }
+
 .producers-content {
   width: 1088px;
   display: flex;
@@ -406,7 +407,18 @@ hr {
   opacity: 1;
   margin-top: 30px;
 }
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+  mix-blend-mode: luminosity
+}
 
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
 /* Benefits-content */
 .services {
   position: relative;
@@ -553,7 +565,7 @@ textarea.form-control {
   grid-column: 1;
   grid-row: 4;
 }
-.form-contact h1 {
+.form-contact h2 {
   text-align: left;
   font: normal normal normal 20px/60px Open Sans;
   letter-spacing: 0px;
@@ -583,7 +595,7 @@ textarea.form-control {
   border-color: #77c2b1;
 }
 
-.input-field h1 {
+.input-field h3 {
   text-align: center;
   font: normal normal normal 20px/60px Open Sans;
   letter-spacing: 0px;

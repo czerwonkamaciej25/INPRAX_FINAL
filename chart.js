@@ -27,7 +27,7 @@ const stackedText = {
     ctx.fillText("#: " + data.datasets[0].data[0], width / 2, height / 2 + top);
   },
 };
-let delayed;
+
 const config = {
   type: "doughnut",
   data,
@@ -35,9 +35,15 @@ const config = {
     responsive: true,
     animation: {
       animateRotate: true,
-      animateScale: true,
+      animateScale: false,
       easing: 'linear',
+      delay: 400, 
+      duration: 4000,
+      
     },
+    rotation: 233,
+    
+
   },
   plugins: [stackedText],
   
