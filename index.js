@@ -5,9 +5,9 @@ var swiper = new Swiper(".mySwiper", {
   spaceBetween: -40,
   effect: "coverflow",
   a11y: true,
-  autoplay: {
-    delay: 5000,
-  },
+  // autoplay: {
+  //   delay: 5000,
+  // },
   loop: true,
   grabCursor: true,
   centeredSlides: true,
