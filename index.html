@@ -17,7 +17,7 @@
     href="https://unpkg.com/swiper/swiper-bundle.min.css"
   />
     <link rel="stylesheet" href="styles.css" />
-   
+    <link rel="stylesheet" href="media.css">
     <title>INPRAX</title>
   </head>
   <body>
@@ -34,23 +34,22 @@
         <p>
           Już <span id="main-title2">wkrótce</span>  do pobrania wersje:
         </p>
-     <div class="badges">
+      <div class="badges">
           <a><img src="/images/and-badge.png" alt="google-play-badge" /></a>
           <a><img src="/images/ios-badge.png" alt="appstore-badge" /></a>
-     </div> 
+      </div> 
      <img class="mockup-ipad" src="/images/iPhone 13 Pro Max (1).png" alt="iPhone13-mockup" />
-    </div>
+      </div>
     </section>
-  </header>
-  <section class="main">
-    <div class="description">
-      <h1>Aplikacja Mobilna</h1>
-      <hr/>
-      <p>
-        Aplikacja Inprax powstała z myślą o instalatorach i serwisantach z
-        branży budowlanej oraz HVAC. To mobilne narzędzie ułatwiające pracę,
-        umożliwiające zdalny dostęp serwisowy oraz gwarantujące dokumentację
-        powykonawczą uruchomionych urządzeń.
+    <section class="main">
+      <div class="description">
+        <h1>Aplikacja Mobilna</h1>
+        <hr/>
+        <p>
+          Aplikacja Inprax powstała z myślą o instalatorach i serwisantach z
+          branży budowlanej oraz HVAC. To mobilne narzędzie ułatwiające pracę,
+          umożliwiające zdalny dostęp serwisowy oraz gwarantujące dokumentację
+          powykonawczą uruchomionych urządzeń.
       </p>
       <video class="video" controls width="100%" 
        autoplay loop muted preload="auto"
@@ -206,13 +205,23 @@
   <section class="charts">
     <div class="charts-content">
       <div class="charts-content-position">
-      <canvas id="myBarChart" style="width: 300px; max-width: 300px; display: flex; box-sizing: border-box; height: 10px;"></canvas>
-      <canvas id="myChart2" style="width: 300px; max-width: 300px; display: flex; box-sizing: border-box; height: 10px;"></canvas>
-      <canvas id="myChart3" style="width: 300px; max-width: 300px; display: flex; box-sizing: border-box; height: 10px;"></canvas>
+      <div class="mychart-text">
+       
+      <canvas id="myChart" style="width: 200px; max-width: 250px; display: flex; box-sizing: border-box; height: 10px;"> </canvas>
+      
+      <h1>Tylu instalatorów korzysta z aplikacji</h1>
+      </div>
+      <div class="mychart-text">
+      <canvas id="myChart2" style="width: 200px; max-width: 250px; display: flex; box-sizing: border-box; height: 10px;"></canvas>
+      <h1>Tyle uruchomień wykonano</h1>
+      </div>
+      <div class="mychart-text">
+      <canvas id="myChart3" style="width: 200px; max-width: 250px; display: flex; box-sizing: border-box; height: 10px;"></canvas>
+      <h1>Tyle dodano zdjęć z instalacji</h1>
+      </div>
     </div>
     </div>
-    
-  </div>
+    </div>
   </section>
   <section class="input-field">
     <form class="form">
@@ -267,7 +276,5 @@
   <script src="./index.js" type="module"></script>
   <script src="./chart.js" type="module"></script>
   <script src="./reveal.js" type="module"></script>
-  <script src="./intersection.js"></script>
-  <script src="js/skrollr.min.js"></script>
   </body>
 </html>
