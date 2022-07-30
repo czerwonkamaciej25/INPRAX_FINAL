@@ -416,7 +416,7 @@ video {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 220px;
+  gap: 685px;
   align-items: center;
   mix-blend-mode: luminosity;
   opacity: 1;
@@ -516,10 +516,9 @@ video {
   text-align: center;
   font: normal normal 600 19px/19px "Open Sans";
   letter-spacing: 0px;
-  color: rgb(255,255,255);
+  color: rgb(255, 255, 255);
   opacity: 1;
 }
-
 
 .input-field {
   position: relative;
