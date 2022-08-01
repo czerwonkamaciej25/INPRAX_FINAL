@@ -275,7 +275,7 @@ hr {
 .swiper-slide-next p{
   display: none ;
 }
-.swiper-slide-prev p{
+.swiper-slide-pre p{
   display: none ;
 }
 .swiper-button {
@@ -495,25 +495,37 @@ video {
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items:center;
 }
 .charts-content {
   width: 1088px;
-
-  display: flex;
+/* justify-content: center;
+  display: flex; */
   flex-direction: row;
-
+  /* align-items: center; */
   padding: 0;
   margin-top: 10px;
 }
 
 .charts-content-position {
-  width: 300px;
-  gap: 94px;
+  width: 250px;
+  gap: 168px;
   display: flex;
+  align-items: center;
   padding: 0px;
-  margin-top: 10px;
+  margin-top: 55px;
 }
+
+/* .counter { 
+  z-index: 2;
+}
+.uruchomione {
+  margin-top: 90px;
+  margin-left: -250px;
+} */
+/* .fab{
+  margin-bottom: 343px;
+} */
 
 .input-field {
   position: relative;
