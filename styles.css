@@ -1,6 +1,6 @@
-*{
+/* *{
   border: red solid 1px;
-}
+} */
 body {
   /* position: absolute; */
   margin: 0;
@@ -465,19 +465,14 @@ video {
 }
 
 .services-content h5 {
-  position: relative;
-  top: 80px;
+  margin-top: 80px;
   text-align: center;
   font: normal normal normal 50px/70px Open Sans;
   letter-spacing: 0px;
   color: #001125;
-  margin: 0;
 }
-
 .services-content p {
-  position: relative;
-  margin: 0;
-  top: 130px;
+  margin-top: 100px;
   text-align: left;
   font: normal normal normal 20px/27px Open Sans;
   letter-spacing: 0px;
@@ -485,9 +480,14 @@ video {
 }
 .services-content img {
   width: 100%;
-  margin-top: 200px;
+  margin-top: 50px;
   align-items: center;
 }
+
+.service-chart-mobile-390px {
+  display: none;
+}
+
 .charts {
   position: relative;
   top: 0;
@@ -549,20 +549,24 @@ video {
   padding: 0;
   margin-top: 70px;
 }
+.form-control::placeholder { 
+  font: normal normal 600 15px/60px "Open Sans";
+  color: #001125;
+  opacity: 1; 
+}
 .form-title h1 {
   text-align: left;
-  font: normal normal 600 25px/60px Open Sans;
+  font: normal normal 600 25px/60px "Open Sans";
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
 }
 .form-control {
-  font: normal normal 600 15px/40px Open Sans;
+  font: normal normal 600 15px/40px "Open Sans";
   letter-spacing: 0px;
-  color: #001125;
+  /* color: #001125; */
   opacity: 1;
 }
-
 textarea.form-control {
   min-height: calc(16.5em + 0.75rem + 1px);
 }
@@ -623,11 +627,15 @@ textarea.form-control {
   background-color: #77c2b1;
   border-color: #77c2b1;
 }
-
-.input-field h3 {
+.footer-copyright{
   text-align: center;
-  font: normal normal normal 20px/60px Open Sans;
+  font: normal normal normal 20px/30px "Open Sans";
   letter-spacing: 0px;
   color: #ffffff;
-  opacity: 0.4;
+  opacity: 0.5;
+}
+.text-green {
+  font: normal normal normal 20px/30px "Open Sans";
+  letter-spacing: 0px;
+  color: #ffffff;
 }
