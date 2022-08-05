@@ -273,11 +273,11 @@ hr {
   text-transform: uppercase;
   opacity: 1;
 }
-.swiper-slide-next p {
-  display: none;
+.swiper-slide-next p{
+  display: none ;
 }
-.swiper-slide-prev p {
-  display: none;
+.swiper-slide-pre p{
+  display: none ;
 }
 .swiper-button {
   display: flex;
@@ -335,13 +335,14 @@ hr {
   align-items: center;
 }
 
-.video-slogan {
+.video-slogan{
   position: absolute;
   text-align: center;
   width: 100%;
   height: 100vh;
 }
 video {
+  
   object-fit: cover;
 }
 .adslogan {
@@ -417,26 +418,38 @@ video {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+<<<<<<< HEAD
   width: 100%;
   gap: 675px;
+=======
+  gap: 220px;
+>>>>>>> 0fc95b79cf29ec8b06bf6fe09e486af87a45a37f
   align-items: center;
   mix-blend-mode: luminosity;
   opacity: 1;
   margin-top: 30px;
 }
+<<<<<<< HEAD
 /* .reveal .active{
   padding: 0;
 } */
 .reveal {
+=======
+.reveal{
+>>>>>>> 0fc95b79cf29ec8b06bf6fe09e486af87a45a37f
   position: relative;
   transform: translateY(150px);
   opacity: 0;
   transition: 1s all ease;
+<<<<<<< HEAD
   mix-blend-mode: luminosity;
   padding: 0;
+=======
+  mix-blend-mode: luminosity
+>>>>>>> 0fc95b79cf29ec8b06bf6fe09e486af87a45a37f
 }
 
-.reveal.active {
+.reveal.active{
   transform: translateY(0);
   opacity: 1;
 }
@@ -500,31 +513,37 @@ video {
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items:center;
 }
 .charts-content {
   width: 1088px;
-  display: flex;
+/* justify-content: center;
+  display: flex; */
   flex-direction: row;
+  /* align-items: center; */
   padding: 0;
-  margin-top: 45px;
+  margin-top: 10px;
 }
 
 .charts-content-position {
-  width: 200px;
-  gap: 244px;
+  width: 250px;
+  gap: 168px;
   display: flex;
+  align-items: center;
   padding: 0px;
+  margin-top: 55px;
 }
 
-.mychart-text h1 {
-  margin-top: 30px;
-  text-align: center;
-  font: normal normal 600 19px/19px "Open Sans";
-  letter-spacing: 0px;
-  color: rgb(255, 255, 255);
-  opacity: 1;
+/* .counter { 
+  z-index: 2;
 }
+.uruchomione {
+  margin-top: 90px;
+  margin-left: -250px;
+} */
+/* .fab{
+  margin-bottom: 343px;
+} */
 
 .input-field {
   position: relative;
