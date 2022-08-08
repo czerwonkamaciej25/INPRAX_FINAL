@@ -77,7 +77,7 @@
   } */
   #videoContainer {
     margin-bottom: 403px;
-    height: 35vh;
+    height: 25vh;
     width: 100%;
   }
   /* Lista cech */
@@ -150,6 +150,16 @@
   }
   .swiper-button-prev {
     display: none;
+  }
+  .swiper-slide p {
+    width: 250px;
+    margin-top: 5px;
+    text-align: center;
+    font: normal normal 600 15px/30px "Open Sans";
+    letter-spacing: 0px;
+    color: #001125;
+    text-transform: uppercase;
+    opacity: 1;
   }
   /* SLOGAN */
   .adslogan {
@@ -278,9 +288,5 @@
   }
 
 }
-@media (orientation: landscape) {
-  #videoContainer {
-      height: 57vh;
-  }
-  }
+
   
