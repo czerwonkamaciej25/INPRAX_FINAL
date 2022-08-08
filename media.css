@@ -1,4 +1,4 @@
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   .hero {
     background-image: url(/images/Group\ 55.png);
     height: 394.78px;
@@ -44,7 +44,7 @@
     height: 235px;
   }
   .main {
-    height: 550px;
+    height: 700px;
   }
   .description {
     margin-top: 35px;
@@ -69,10 +69,16 @@
     width: 88px;
     margin: 0;
   }
-  .video {
-    margin-top: 35px;
+  /* #videoContainer .video  {
+    margin-top: 0px;
     width: 100%;
-    height: auto;
+  
+    margin-bottom: 540px;
+  } */
+  #videoContainer {
+    margin-bottom: 403px;
+    height: 35vh;
+    width: 100%;
   }
   /* Lista cech */
   .app-features {
@@ -130,11 +136,20 @@
     align-content: center;
   }
 
+  .swiper-slide img {
+    width: 300px;
+  }
   .swiper {
     width: 316px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     align-items: center;
+  }
+  .swiper-button-next {
+  display: none;
+  }
+  .swiper-button-prev {
+    display: none;
   }
   /* SLOGAN */
   .adslogan {
@@ -263,4 +278,9 @@
   }
 
 }
+@media (orientation: landscape) {
+  #videoContainer {
+      height: 57vh;
+  }
+  }
   
