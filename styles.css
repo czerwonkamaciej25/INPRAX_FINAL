@@ -25,7 +25,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.container {
+.container-hero {
   width: 1088px;
   display: flex;
   flex-direction: column;
@@ -138,6 +138,8 @@ hr {
 }
 .video {
   margin-top: 100px;
+  width: 100%;
+  height: auto;
 }
 
 /* Lista cech */
@@ -162,8 +164,6 @@ hr {
 }
 .list-group {
   width: 1088px;
-  /* display: grid;
-  grid-template-columns: 1fr; */
   list-style: none;
   grid-template: none;
   padding: 0;
@@ -233,7 +233,7 @@ hr {
 }
 
 .swiper {
-  width: 950px;
+  width: 1088px;
   padding-top: 50px;
   padding-bottom: 50px;
   align-items: center;
@@ -254,7 +254,8 @@ hr {
 .swiper-slide img {
   display: flex;
   justify-content: center;
-  width: 90%;
+  width: 100%;
+  height: 100%;
   align-items: center;
   margin: 0;
   z-index: 0;
@@ -354,19 +355,19 @@ video {
 
 .adslogan h3 {
   text-align: left;
-  font: normal normal 600 50px/75px Open Sans;
+  font: normal normal 600 50px/75px "Open Sans";
   letter-spacing: 0px;
   color: #e4e4e4;
 }
 #as1 {
   text-align: left;
-  font: normal normal bold 60px/75px Open Sans;
+  font: normal normal bold 60px/75px "Open Sans";
   letter-spacing: 0px;
   color: #1cc6a0;
 }
 .adslogan p {
   text-align: left;
-  font: normal normal bold 30px/75px Open Sans;
+  font: normal normal bold 30px/75px "Open Sans";
   letter-spacing: 0px;
   color: #f8f8f8;
 }
@@ -416,18 +417,23 @@ video {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 685px;
+  width: 100%;
+  gap: 675px;
   align-items: center;
   mix-blend-mode: luminosity;
   opacity: 1;
   margin-top: 30px;
 }
+/* .reveal .active{
+  padding: 0;
+} */
 .reveal {
   position: relative;
   transform: translateY(150px);
   opacity: 0;
   transition: 1s all ease;
   mix-blend-mode: luminosity;
+  padding: 0;
 }
 
 .reveal.active {
@@ -459,19 +465,14 @@ video {
 }
 
 .services-content h5 {
-  position: relative;
-  top: 80px;
+  margin-top: 80px;
   text-align: center;
   font: normal normal normal 50px/70px Open Sans;
   letter-spacing: 0px;
   color: #001125;
-  margin: 0;
 }
-
 .services-content p {
-  position: relative;
-  margin: 0;
-  top: 130px;
+  margin-top: 100px;
   text-align: left;
   font: normal normal normal 20px/27px Open Sans;
   letter-spacing: 0px;
@@ -479,16 +480,21 @@ video {
 }
 .services-content img {
   width: 100%;
-  margin-top: 200px;
+  margin-top: 50px;
   align-items: center;
 }
+
+.service-chart-mobile-390px {
+  display: none;
+}
+
 .charts {
   position: relative;
   top: 0;
   left: 0;
   height: 360px;
   width: 100%;
-  background-color: #1277aa;
+  background-color: #092443;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -525,13 +531,15 @@ video {
   left: 0;
   height: 600px;
   width: 100%;
-  background-image: url(/images/Group\ 32.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: rgb(255,255,255);
+  background: linear-gradient(227deg, rgba(255,255,255,1) 0%, rgba(18,119,170,1) 53%, rgba(9,67,102,1) 100%);
+  opacity: 1;
 }
 
 .form {
@@ -541,20 +549,24 @@ video {
   padding: 0;
   margin-top: 70px;
 }
+.form-control::placeholder { 
+  font: normal normal 600 15px/60px "Open Sans";
+  color: #001125;
+  opacity: 1; 
+}
 .form-title h1 {
   text-align: left;
-  font: normal normal 600 25px/60px Open Sans;
+  font: normal normal 600 25px/60px "Open Sans";
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
 }
 .form-control {
-  font: normal normal 600 15px/40px Open Sans;
+  font: normal normal 600 15px/40px "Open Sans";
   letter-spacing: 0px;
-  color: #001125;
+  /* color: #001125; */
   opacity: 1;
 }
-
 textarea.form-control {
   min-height: calc(16.5em + 0.75rem + 1px);
 }
@@ -615,11 +627,15 @@ textarea.form-control {
   background-color: #77c2b1;
   border-color: #77c2b1;
 }
-
-.input-field h3 {
+.footer-copyright{
   text-align: center;
-  font: normal normal normal 20px/60px Open Sans;
+  font: normal normal normal 20px/30px "Open Sans";
   letter-spacing: 0px;
   color: #ffffff;
-  opacity: 0.4;
+  opacity: 0.5;
+}
+.text-green {
+  font: normal normal normal 20px/30px "Open Sans";
+  letter-spacing: 0px;
+  color: #ffffff;
 }

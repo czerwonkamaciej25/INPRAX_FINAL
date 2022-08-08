@@ -1,149 +1,10 @@
-@media screen and (max-width: 1480px) {
-  .container,
-  main {
-    width: 80%;
-  }
-  .mockup-ipad {
-    right: 0;
-    position: absolute;
-    top: 300px;
-    width: 250px;
-    height: 533px;
-    background: transparent no-repeat padding-box;
-    opacity: 1;
-    z-index: 2;
-  }
-}
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 400px) {
   .hero {
-    background-image: url(/images/Background-image-tablet.png);
+    background-image: url(/images/Group\ 55.png);
     height: 394.78px;
-  }
-  .container,
-  main {
-    width: 653px;
-  }
-  #logo {
-    margin-top: 50px;
-    margin-bottom: 0;
     width: 100%;
   }
-  #logo img {
-    width: 281px;
-  }
-  .hero h1 {
-    font: normal normal bold 23px/30px "Open Sans";
-    width: 100%;
-    margin-top: 25px;
-  }
-  .hero p {
-    font: normal normal bold 18px/27px "Open Sans";
-    width: 100%;
-    height: fit-content;
-    margin: 0;
-  }
-  hr {
-    width: 150px;
-    margin: 0;
-  }
-  .hero .badges {
-    flex-direction: row;
-    margin-top: 5px;
-    margin-left: 30px;
-    width: 35%;
-  }
-  .hero .badges img {
-    height: 35px;
-    margin: 7px;
-  }
-  .mockup-ipad {
-    top: 150px;
-    width: 200px;
-    height: 426px;
-  }
-  .description {
-    margin-top: 15px;
-  }
-  .description h1 {
-    font: normal normal bold 23px/22px "Open Sans";
-    width: 293px;
-    margin-bottom: 5px;
-  }
-  .description p {
-    width: 50%;
-    height: 100%;
-    font: normal normal 16px/22px "Open Sans";
-    margin-top: 20px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .hero {
-    background-image: url(/images/Background-image-tablet.png);
-    height: 394.78px;
-  }
-  .container,
-  main {
-    width: 500px;
-  }
-  #logo {
-    margin-top: 50px;
-    margin-bottom: 0;
-    width: 60%;
-  }
-  #logo img {
-    width: 240px;
-  }
-  .hero h1 {
-    font: normal normal bold 18px/27px "Open Sans";
-    width: 100%;
-    margin-top: 25px;
-  }
-  .hero p {
-    font: normal normal bold 16px/27px "Open Sans";
-    width: 100%;
-    height: fit-content;
-    margin: 0;
-  }
-  hr {
-    width: 150px;
-    margin: 0;
-  }
-  .hero .badges {
-    flex-direction: row;
-    margin-top: 5px;
-    margin-left: 30px;
-    width: 35%;
-  }
-  .hero .badges img {
-    height: 30px;
-    margin: 7px;
-  }
-  .mockup-ipad {
-    top: 190px;
-    width: 150px;
-    height: 320px;
-  }
-  .description {
-    margin-top: 15px;
-  }
-  .description h1 {
-    font: normal normal bold 18px/22px "Open Sans";
-    width: 293px;
-    margin-bottom: 5px;
-  }
-  .description p {
-    width: 50%;
-    height: 100%;
-    font: normal normal 16px/22px "Open Sans";
-    margin-top: 20px;
-  }
-}
-@media screen and (max-width: 500px) {
-  .hero {
-    background-image: url(/images/Background-image-smarthphone.png);
-    height: 394.78px;
-  }
-  .container {
+  .container-hero {
     width: 316px;
   }
   #logo {
@@ -160,7 +21,8 @@
     margin-top: 25px;
   }
   .hero p {
-    font: normal normal bold 16px/27px "Open Sans";
+    font: normal normal 600 16px/70px "Open Sans";
+    letter-spacing: 0px;
     width: 100%;
     height: fit-content;
     margin: 0;
@@ -176,29 +38,229 @@
     margin: 7px;
   }
   .mockup-ipad {
-    top: 248px;
+    top: 270px;
+    right: 20px;
     width: 110px;
     height: 235px;
   }
-  main {
-    width: 316px;
+  .main {
+    height: 550px;
   }
   .description {
-    margin-top: 15px;
+    margin-top: 35px;
+    width: 316px;
   }
   .description h1 {
-    font: normal normal bold 20px/22px "Open Sans";
-    width: 113px;
-    margin-bottom: 5px;
+    width: 140px;
+    text-align: left;
+    font: normal normal 600 20px/27px Open Sans;
+    letter-spacing: 0px;
+    color: #001125;
+    text-transform: uppercase;
+    opacity: 1;
   }
   .description p {
     width: 100%;
     height: 100%;
     font: normal normal 16px/22px "Open Sans";
-    margin-top: 20px;
+    margin-top: 35px;
   }
   hr {
     width: 88px;
     margin: 0;
   }
+  .video {
+    margin-top: 35px;
+    width: 100%;
+    height: auto;
+  }
+  /* Lista cech */
+  .app-features {
+    height: 1450px;
+  }
+  .features-list {
+    width: 316px;
+  }
+  .list-group {
+    width: 316px;
+  }
+  .features-list h1 {
+    text-align: center;
+    font: normal normal 600 18px/30px Open Sans;
+    letter-spacing: 0px;
+    color: #1cc6a0;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+  .list-group-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0;
+    align-items: center;
+  }
+  .item-content h2 {
+    text-align: center;
+    font: normal normal 600 18px/30px Open Sans;
+    letter-spacing: 0px;
+    color: #001125;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+  .item-content p {
+    text-align: center;
+    font: normal normal 300 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #001125;
+    opacity: 1;
+    width: 316px;
+  }
+  .carousel {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(/images/Group\ 21.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .swiper {
+    width: 316px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+  }
+  /* SLOGAN */
+  .adslogan {
+    width: 316px;
+    margin-top: 60px;
+  }
+  .adslogan h3 {
+    font: normal normal 600 40px/49px "Open Sans";
+  }
+  #as1 {
+    font: normal normal bold 40px/49px "Open Sans";
+  }
+  .adslogan p {
+    font: normal normal bold 16px/49px "Open Sans";
+  }
+  /* współprace z producentami */
+  .producers {
+    height: 400px;
+  }
+  .producers-content {
+    width: 316px;
+  }
+  .producers-content h4 {
+    text-align: center;
+    font: normal normal 600 20px/35px Open Sans;
+    letter-spacing: 0px;
+    color: #001125;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+  .producers-content-img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 50px;
+    align-items: center;
+    mix-blend-mode: luminosity;
+    opacity: 1;
+    margin-top: 30px;
+  }
+
+  /* service-chart */
+  .services {
+    height: 1640px;
+  }
+  .services-content {
+    width: 316px;
+  }
+  .services-content h5 {
+    font: normal normal normal 25px/40px "Open Sans";
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .services-content p {
+    text-align: left;
+    font: normal normal normal 16px/27px "Open Sans";
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 130px;
+  }
+  .services-content img {
+    margin-top: 30px;
+  }
+  .service-chart-mobile-390px {
+    display: flex;
+    flex-direction: column;
+  }
+  .service-chart-desktop {
+    display: none;
+  }
+
+  /* charts-content */
+  .charts {
+    height: 1000px;
+  }
+  .charts-content {
+    width: 316px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-top: 45px;
+    align-items: center;
+  }
+  .charts-content-position {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* forms-content */
+  .input-field {
+    height: 1000px;
+    background: transparent linear-gradient(264deg, rgba(18, 119, 170, 1) 0%, rgba(2, 3, 7, 1) 100%) 0% 0% no-repeat padding-box;
+  }
+  .form {
+    width: 316px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-top: 70px;
+  }
+  .form-title h1 {
+    font: normal normal 600 25px/60px Open Sans;
+  }
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+    margin: 0;
+  }
+  .footer-copyright{
+    width: 316px;
+    text-align: center;
+    font: normal normal normal 13px/20px "Open Sans";
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 0.5;
+  }
+  .text-green {
+    font: normal normal normal 13px/30px "Open Sans";
+    letter-spacing: 0px;
+    color: #ffffff;
+  }
+
 }
+  
