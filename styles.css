@@ -371,35 +371,36 @@ button {
   object-fit: contain;
   margin-top: 23px;
 }
-
-.carousel {
+.mockup-slider {
   position: relative;
-  top: 0;
-  left: 0;
-  height: 100%;
+  height: 1000px;
   width: 100%;
-  background-image: url(/images/Group\ 21.png);
-  background-position: center;
-  background-size: cover;
+  background-image: url(/images/globe2.png);
   background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
+}
+.mockup-slider-content{
+  width: 1088px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  padding: 0;
 }
 
 .swiper {
-  width: 1088px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  align-items: center;
+  width: 100%;
+  height: 1000px;
+  align-items: center;    
 }
 
 .swiper-slide {
-  margin-top: 100px;
-  /* background-position: center; */
   background-size: cover;
   width: 100%;
-  height: 100%;
+ justify-content: center;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -410,12 +411,10 @@ button {
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 100%;
   align-items: center;
   margin: 0;
   z-index: 0;
-  /* border-radius: 10px;
-  border: #e6e6e6 solid 1px; */
+
 }
 
 .swiper-slide p {
@@ -436,7 +435,6 @@ button {
 }
 .swiper-button {
   display: flex;
-  justify-content: space-between;
   gap: 50px;
   width: 40px;
   height: 40px;
@@ -448,11 +446,13 @@ button {
 }
 .swiper-button-next {
   position: absolute;
-  right: 300px;
+  right: 0px;
+  justify-content: flex-end;
 }
 .swiper-button-prev {
   position: absolute;
-  left: 300px;
+  left: 0px;
+  justify-content: flex-start;
 }
 .swiper-button::after {
   font-size: 55px;
@@ -465,8 +465,7 @@ button {
 }
 
 .swiper-pagination {
-  margin-bottom: 20px;
-  width: px;
+  margin-bottom: 80px;
 }
 .swiper-pagination-bullet {
   width: 20px;
@@ -477,7 +476,7 @@ button {
 }
 .slogan {
   position: relative;
-  top: 100px;
+  top: 0;
   left: 0;
   height: 570px;
   width: 100%;

@@ -121,46 +121,28 @@
     opacity: 1;
     width: 316px;
   }
-  .carousel {
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-image: url(/images/Group\ 21.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+  /* carousel */
+  
+  .mockup-slider {
+  background-size: contain;
+  height: 800px;
   }
-
-  .swiper-slide img {
-    width: 300px;
+  .swiper{
+    height: 800px;
   }
-  .swiper {
+  .swiper-pagination {
+    margin-bottom: 30px;
+  }
+  .mockup-slider-content{
     width: 316px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    align-items: center;
   }
-  .swiper-button-next {
-  display: none;
+  .swiper-button::after {
+    font-size: 35px;
+    font-weight: bold;
+    color: #1cc6a0;
   }
-  .swiper-button-prev {
-    display: none;
-  }
-  .swiper-slide p {
-    width: 250px;
-    margin-top: 5px;
-    text-align: center;
-    font: normal normal 600 15px/30px "Open Sans";
-    letter-spacing: 0px;
-    color: #001125;
-    text-transform: uppercase;
-    opacity: 1;
-  }
+  
+
   /* SLOGAN */
   .adslogan {
     width: 316px;

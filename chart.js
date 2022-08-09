@@ -4,8 +4,8 @@ var data = {
     {
       label: "# of Votes",
       data: [0],
-      backgroundColor: ["rgb(0,17,37)"],
-      borderColor: ["rgb(0,17,37)"],
+      backgroundColor: ["rgb(28,198,160)"],
+      borderColor: ["rgb(28,198,160)"],
       borderWidth: 13,
       weight: 0,
     },
@@ -53,8 +53,8 @@ var data = {
     {
       label: "# of Votes",
       data: [0],
-      backgroundColor: ["rgb(0,17,37)"],
-      borderColor: ["rgb(0,17,37)"],
+      backgroundColor: ["rgb(28,198,160)"],
+      borderColor: ["rgb(28,198,160)"],
       borderWidth: 13,
       weight: 0,
     },
@@ -103,8 +103,8 @@ var data = {
     {
       label: "# of Votes",
       data: [0],
-      backgroundColor: ["rgb(0,17,37)"],
-      borderColor: ["rgb(0,17,37)"],
+      backgroundColor: ["rgb(28,198,160)"],
+      borderColor: ["rgb(28,198,160)"],
       borderWidth: 13,
       weight: 0,
     },
