@@ -25,7 +25,7 @@ var stackedText = {
     ctx.font = "normal 45px Open Sans";
     ctx.fillStyle = "rgb(255,255,255)";
     ctx.textAlign = "center";
-    ctx.fillText("200", width / 2, height / 2 + top);
+    ctx.fillText("520", width / 2, height / 2 + top);
   },
 };
 
@@ -74,7 +74,7 @@ var stackedText = {
     ctx.font = "normal 45px Open Sans";
     ctx.fillStyle = "rgb(255,255,255)";
     ctx.textAlign = "center";
-    ctx.fillText("2000", width / 2, height / 2 + top);
+    ctx.fillText("2270", width / 2, height / 2 + top);
   },
 };
 
@@ -124,7 +124,7 @@ var stackedText = {
     ctx.font = "normal 45px Open Sans";
     ctx.fillStyle = "rgb(255,255,255)";
     ctx.textAlign = "center";
-    ctx.fillText("20000", width / 2, height / 2 + top);
+    ctx.fillText("18500", width / 2, height / 2 + top);
   },
 };
 

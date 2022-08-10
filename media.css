@@ -1,4 +1,4 @@
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 820px) {
   .hero {
     background-image: url(/images/Group\ 55.png);
     height: 394.78px;
@@ -69,14 +69,9 @@
     width: 88px;
     margin: 0;
   }
-  /* #videoContainer .video  {
-    margin-top: 0px;
-    width: 100%;
-  
-    margin-bottom: 540px;
-  } */
+
   #videoContainer {
-    margin-bottom: 403px;
+    margin-top: 90px;
     height: 25vh;
     width: 100%;
   }
@@ -122,18 +117,18 @@
     width: 316px;
   }
   /* carousel */
-  
+
   .mockup-slider {
-  background-size: contain;
-  height: 800px;
+    background-size: 200vh;
+    height: 800px;
   }
-  .swiper{
+  .swiper {
     height: 800px;
   }
   .swiper-pagination {
     margin-bottom: 30px;
   }
-  .mockup-slider-content{
+  .mockup-slider-content {
     width: 316px;
   }
   .swiper-button::after {
@@ -141,7 +136,6 @@
     font-weight: bold;
     color: #1cc6a0;
   }
-  
 
   /* SLOGAN */
   .adslogan {
@@ -236,7 +230,9 @@
   /* forms-content */
   .input-field {
     height: 1000px;
-    background: transparent linear-gradient(264deg, rgba(18, 119, 170, 1) 0%, rgba(2, 3, 7, 1) 100%) 0% 0% no-repeat padding-box;
+    background: transparent
+      linear-gradient(264deg, rgba(18, 119, 170, 1) 0%, rgba(2, 3, 7, 1) 100%)
+      0% 0% no-repeat padding-box;
   }
   .form {
     width: 316px;
@@ -252,10 +248,10 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-  
+
     margin: 0;
   }
-  .footer-copyright{
+  .footer-copyright {
     width: 316px;
     text-align: center;
     font: normal normal normal 13px/20px "Open Sans";
@@ -268,7 +264,4 @@
     letter-spacing: 0px;
     color: #ffffff;
   }
-
 }
-
-  

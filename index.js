@@ -9,7 +9,6 @@ var swiper = new Swiper(".mySwiper", {
   loop: true,
   grabCursor: true,
   centeredSlides: true,
-
   coverflowEffect: {
     rotate: 0,
     modifier: 1,
@@ -30,11 +29,11 @@ var swiper = new Swiper(".mySwiper", {
       spaceBetween: 10,
     },
     "@0.75": {
-      slidesPerView: 2,
+      slidesPerView: 1,
       spaceBetween: 20,
     },
     "@1.00": {
-      slidesPerView: 3,
+      slidesPerView: 2,
       spaceBetween: 40,
     },
     "@1.50": {
@@ -43,41 +42,3 @@ var swiper = new Swiper(".mySwiper", {
     },
   },
 });
-
-// var swiper = new Swiper(".mySwiper", {
-//   slidesPerView: 3,
-//   spaceBetween: 0,
-//   effect: "coverflow",
-//   a11y: true,
-//   autoplay: {
-//     delay: 5000,
-//   },
-//   loop: true,
-//   grabCursor: true,
-//   centeredSlides: true,
-
-//   coverflowEffect: {
-//     rotate: 0,
-//     stretch: 800,
-//     depth: 200,
-//     modifier: 1,
-//     slideShadows: false,
-//   },
-//   navigation: {
-//     nextEl: ".swiper-button-next",
-//     prevEl: ".swiper-button-prev",
-//   },
-//   pagination: {
-//     el: ".swiper-pagination",
-//   },
-
-//   breakpoints: {
-//     300: {
-//       slidesPerView: slidesPerView[2]
-//     },
-//   //   1900: {
-//   //     slidesPerView: slidesPerView[3]
-//   //   }
-//   // }
-
-// });
