@@ -24,21 +24,25 @@ var swiper = new Swiper(".mySwiper", {
     clickable: true,
   },
   breakpoints: {
-    "@0.00": {
+    320: {
       slidesPerView: 1,
-      spaceBetween: 10,
+      spaceBetween: 20
     },
-    "@0.75": {
+    // when window width is >= 480px
+    480: {
       slidesPerView: 1,
-      spaceBetween: 20,
+      spaceBetween: 10
     },
-    "@1.00": {
-      slidesPerView: 2,
-      spaceBetween: 40,
+    // when window width is >= 640px
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 100
     },
-    "@1.50": {
+    // when window width is >= 820px
+    820: {
       slidesPerView: 3,
-      spaceBetween: 100,
-    },
+      spaceBetween: 100
+    }
+    
   },
 });

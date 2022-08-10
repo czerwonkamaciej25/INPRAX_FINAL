@@ -1,3 +1,10 @@
+/* @media screen and (max-width: 820px) { */
+  @media (orientation: landscape) {
+    p, .playlistContainer {
+        max-width: 952px;
+    }
+}
+
 @media screen and (max-width: 820px) {
   .hero {
     background-image: url(/images/Group\ 55.png);
